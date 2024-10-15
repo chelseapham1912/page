@@ -1,7 +1,7 @@
 {
   "name": "gregsithole-react-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://chelseapham1912.github.io/page",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",

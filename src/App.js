@@ -22,7 +22,7 @@ function App() {
   return (
     <Router>
       <div className="app" data-theme={theme}>
-        <Routes>
+        <Routes basename={process.env.PUBLIC_URL}>
           <Route path="/" element={<Main theme={theme} switchTheme={switchTheme} />} /> {/* Truyền props vào Main */}
           <Route path="/service-detail-1" element={<ServiceDetail1 />} />
           <Route path="/service-detail-2" element={<ServiceDetail2 />} />
